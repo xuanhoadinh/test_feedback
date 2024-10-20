@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css"> <!-- Nếu bạn có file CSS -->
+</head>
+<body>
+    <h1>Feedback</h1>
+
+    <form action="https://formspree.io/f/mgvevwbw" method="POST">
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="feedback">Phản hồi:</label>
+        <textarea id="feedback" name="feedback" required></textarea>
+        <br>
+        <button type="submit">Gửi</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
